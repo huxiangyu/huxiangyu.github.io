@@ -1,17 +1,17 @@
 # Site settings
-title: Victor Igor - Desenvolvedor Web
+title: huxiangyu - Desenvolvedor Web
 description: "Um blog sobre desenvolvimento web"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://victorvoid.github.io" #http://localhost:3000
+url: "http://huxiangyu.github.io" #http://localhost:3000
 
 # User settings
-username: victor igor
-user_title: Victor Igor - FrontEnd
-email: victor.0w3@hotmail.com
-twitter_username: victorvoid_
-github_username:  victorvoid
-gplus_username:  victor0w3
-disqus_username: victorvoid
+username: huxiangyu
+user_title: huxiangyu - FrontEnd
+email: huxiangyu@mail.com
+twitter_username: x0nlyx
+github_username:  huxiangyu
+gplus_username:  huxy825
+disqus_username: huxiangyu
 
 # Build settings
 markdown: kramdown
@@ -41,13 +41,13 @@ links:
     url: /about
 # projects in header index
 projects:
-  - name: asciilang
-    url: https://github.com/victorvoid/asciilang
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara
-  - name: space-jekyll-template
-    url: https://github.com/victorvoid/space-jekyll-template
+  - name: NetSpeed
+    url: https://github.com/huxiangyu/NetSpeed
+  - name: fonts
+    url: https://github.com/huxiangyu/fonts
+  - name: oh-my-zsh
+    url: https://github.com/huxiangyu/oh-my-zsh
+  - name: hosts
+    url: https://github.com/huxiangyu/hosts
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
