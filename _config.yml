@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://huxiangyu.github.io" #http://localhost:3000
 
 # User settings
-username: huxiangyu
+username: 胡翔宇
 user_title: huxiangyu - FrontEnd
 email: huxiangyu@mail.com
 twitter_username: huxxyu
