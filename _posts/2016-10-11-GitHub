@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "GitHub"
-image: '/images/group-aggregate/elements-2.png'
-date:   2016-01-01 00:15:31
-tags: GitHub
+title:  "Getting Started com MongoDB"
+image: 'images/mongodb123/mean.jpg'
+date:   2015-12-07 00:06:31
 categories: 
-- GitHub
-description: O group tem no total 6 propriedades que podemos utilizar e fazer a festa com eles, aliás usar aggregate é só para os fortes.
+- Introdução ao mongodb
+tags: mongodb
+description: Importação, exportação, insercão, operadores aritméticos, buscas básicas, operador de existência, agora vai, é hoje que você aprende
 ---
 # GitHub操作流程 :
 
