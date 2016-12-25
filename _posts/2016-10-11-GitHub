@@ -1,4 +1,12 @@
-＃　GitHub操作流程 :
+---
+layout: post
+title:  "GitHub"
+date:   201６-10-11 00:07:31
+tags: GitHub
+description: GitHub
+image: 
+---
+# GitHub操作流程 :
 
 第一次提交 :  
 方案一 : 本地创建项目根目录, 然后与远程GitHub关联, 之后的操作一样;
@@ -33,13 +41,12 @@ Git分支操作: 创建分支后, 分支操作不会影响master分支, 但是ma
 --合并分支 : git merge branchName ;
 
 
-
-＃　github开启手机短信验证∞
+# github开启手机短信验证∞
 
 
 
 修改 github 网页的源码，添加一个中国的选项：
 
-｀｀｀
+```
 <option value="+86">China +86</option>
-｀｀｀
+```
