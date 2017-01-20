@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>huxiangyu - Desenvolvedor Web</title>
+    <description>Um blog sobre desenvolvimento web</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 19 Jan 2017 16:17:16 +0800</pubDate>
+    <lastBuildDate>Thu, 19 Jan 2017 16:17:16 +0800</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Relacionamento no MongoDB ? WTF</title>
+        <description>&lt;p&gt;Relacionamentos entre collections, explain, replicas, índices, rand, e GridFS.&lt;/p&gt; &lt;h2 id=&quot;relacionamento-&quot;&gt;Relacionamento ?&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/relacionamento-explain-replicas/relacao-gato.gif&quot; /&gt;&lt;/p&gt; &lt;p&gt;Não! Não é esse tipo de relacionamento, e sim de banco de dados. =(&lt;/p&gt; &lt;p&gt;Nos banco relacionais é de fato o uso de &lt;span class=&quot;&quot;&gt;joins&lt;/span&gt; pra relacionar uma tabela com outra, porém como funciona o relacionamento no MongoDB ? Joins não existem no MongoDB, não tem como fazer a busca automática de duas coleções separadas usando alguma chave estrangeira como nos relacionais. Existe duas formas, a Manual e DBRef. Já que a forma Manual é a mais usada, vamos ver como funciona.&lt;/p&gt; &lt;h2 id=&quot;relacionamento-manual&quot;&gt;Relacionamento Manual&lt;/h2&gt;...</description>
+        <pubDate>Sat, 09 Jan 2016 08:06:31 +0800</pubDate>
+        <link>http://localhost:4000/relacionamento-explain-replicas/</link>
+        <guid isPermaLink="true">http://localhost:4000/relacionamento-explain-replicas/</guid>
+        
+        <category>mongodb</category>
+        
+        
+        <category>Introdução ao mongodb</category>
+        
+      </item>
+    
+      <item>
+        <title>Garbage Collector no JavaScript</title>
+        <description>&lt;p&gt;Coletor de lixo ? preciso me preocupar com isso ? como funciona ?&lt;/p&gt; &lt;h2 id=&quot;garbage-collector&quot;&gt;Garbage Collector&lt;/h2&gt; &lt;p&gt;Garbage collector é um conceito muito antigo na história da computação, inventado pelo criador da linguagem de programação &lt;strong&gt;Lisp&lt;/strong&gt; em 1959. Como o próprio nome diz, é um coletor de lixo, e você deve tá se perguntando:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Que lixo é esse ? ლ(ಠ▃ಠლ)&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Ao longo do algoritmo você faz uso de um espaço da memória, mas nem sempre utiliza até o final, e se você deixa um objeto em um espaço de memória que nem tá mais utilizando, isso acaba virando um...</description>
+        <pubDate>Sat, 02 Jan 2016 08:07:31 +0800</pubDate>
+        <link>http://localhost:4000/garbage-collector/</link>
+        <guid isPermaLink="true">http://localhost:4000/garbage-collector/</guid>
+        
+        <category>javascript</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Como fazer Aggregate e Groups no MongoDB</title>
+        <description>&lt;p&gt;Descobrindo a quantidade de elementos, limitando, ordenando e distinguindo valores de uma collection, agrupando.&lt;/p&gt; &lt;h2 id=&quot;mongodb---aggregate-e-groups&quot;&gt;MongoDB - Aggregate e Groups&lt;/h2&gt; &lt;p&gt;LOL Vamos continuar essa série pra ficar mais &lt;del&gt;hard core agora&lt;/del&gt; legal com esses operadores.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/group-aggregate/hc.gif&quot; /&gt;&lt;/p&gt; &lt;p&gt;Antes de fatos aprendermos sobre Agreggate e Groups, vamos ver alguns tópicos importantes. Para seguir os primeiros exemplos vamos usar a collection &lt;span class=&quot;nc-s&quot;&gt;restaurantes&lt;/span&gt; use o &lt;a href=&quot;https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/Apostila/module-mongodb/src/data/restaurantes.json&quot;&gt;restaurantes.json&lt;/a&gt; para importar.【ツ】&lt;br /&gt;&lt;/p&gt; &lt;h2 id=&quot;como-saber-a-quantidade-de-documentos-que-eu-tenho&quot;&gt;Como saber a quantidade de documentos que eu tenho?&lt;/h2&gt; &lt;p&gt;Podemos usar a função length:&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;restaurantes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;p&gt;Porém...</description>
+        <pubDate>Fri, 01 Jan 2016 08:15:31 +0800</pubDate>
+        <link>http://localhost:4000/group-aggregate/</link>
+        <guid isPermaLink="true">http://localhost:4000/group-aggregate/</guid>
+        
+        <category>mongobemean</category>
+        
+        
+        <category>Introdução ao mongodb</category>
+        
+      </item>
+    
+      <item>
+        <title>Como atualizar e remover no MongoDB ?</title>
+        <description>&lt;p&gt;Atualizando e removendo objetos, operadores de array, operadores de buscas em arrays e operadores de negação.&lt;/p&gt; &lt;h1 id=&quot;atualizando-e-removendo-dados&quot;&gt;Atualizando e Removendo dados&lt;/h1&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/mongodb-update/digitando-rapido.gif&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;del&gt;Agora o bicho vai pegar LOL.&lt;/del&gt;&lt;/p&gt; &lt;h2 id=&quot;update&quot;&gt;UPDATE&lt;/h2&gt; &lt;p&gt;No MongoDB não existe só uma forma de atualizar o documento, uma das formas já vimos &lt;a href=&quot;http://victorvoid.github.io/2015/12/07/mongodb-aula-1-2-3-be-mean.html&quot;&gt;neste post&lt;/a&gt;, que foi fazendo uma busca usando o &lt;span class=&quot;nf-s&quot;&gt;findOne( )&lt;/span&gt;, e através do resultado modificamos e usamos a função &lt;span class=&quot;nf-s&quot;&gt;save( )&lt;/span&gt;, porém esse caminho é grande, perceba que precisamos fazer a busca, salvar na variável, e modificar para depois salvar.&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span...</description>
+        <pubDate>Sat, 26 Dec 2015 08:06:31 +0800</pubDate>
+        <link>http://localhost:4000/mongodb-aula4/</link>
+        <guid isPermaLink="true">http://localhost:4000/mongodb-aula4/</guid>
+        
+        <category>mongodb</category>
+        
+        
+        <category>Introdução ao mongodb</category>
+        
+      </item>
+    
+      <item>
+        <title>Getting Started com MongoDB</title>
+        <description>&lt;p&gt;Importação, exportação, insercão, operadores aritméticos, buscas básicas, operador de existência, agora vai, é hoje que você aprende&lt;/p&gt; &lt;p&gt;Se ainda não sabe o que é MEAN, dê uma lida:&lt;/p&gt; &lt;h1 id=&quot;a-targetblank-hrefhttpvictorvoidgithubioo-que-e-meanstackfull-stack-javascript-a&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://victorvoid.github.io/o-que-e-meanstack/&quot;&gt;Full-Stack JavaScript ?&lt;/a&gt;&lt;/h1&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/mongodb123/mean.jpg&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;instalao&quot;&gt;Instalação&lt;/h2&gt; &lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.mongodb.org/downloads#production&quot;&gt;Clique aqui&lt;/a&gt;&lt;/p&gt; &lt;h2 id=&quot;introduo-ao-mongodb&quot;&gt;Introdução ao MongoDB&lt;/h2&gt; &lt;p&gt;O MongoDB é um banco NoSQL orientado a documentos, open source, usa javascript, e extremamente rápido, mas isso não é tudo, aliás não ache que ele é um banco que deva substituir todos seus bancos relacionais. Existe casos que o relacional seja a melhor opção ou até outro banco NoSQL. BLAH!&lt;/p&gt; &lt;h2 id=&quot;ento-quando-voc-usaria-victor--o0&quot;&gt;Então...</description>
+        <pubDate>Mon, 07 Dec 2015 08:06:31 +0800</pubDate>
+        <link>http://localhost:4000/mongodb-aula-1-2-3/</link>
+        <guid isPermaLink="true">http://localhost:4000/mongodb-aula-1-2-3/</guid>
+        
+        <category>mongodb</category>
+        
+        
+        <category>Introdução ao mongodb</category>
+        
+      </item>
+    
+      <item>
+        <title>Closure e o tal do Hoisting</title>
+        <description>&lt;p&gt;Closure ? Hoisting ? Instanciação usando uma IIFE? WTF ?&lt;/p&gt; &lt;h2 id=&quot;hoisting&quot;&gt;Hoisting&lt;/h2&gt; &lt;p&gt;Não precisa ser um gênio para entender. Muitos que não sabem seu significado pode está pensando &lt;em&gt;“Nossa, deve ser algo difícil!”&lt;/em&gt;, mas na verdade precisa mais de atenção, a linguagem usa e você não tá percebendo, porém pode causar bastante confusão se não souber da sua existência, por ter comportamentos &lt;em&gt;‘ocultos’&lt;/em&gt;. Então o que significa &lt;strong&gt;Hoisting&lt;/strong&gt; ? Traduzindo para português, seria &lt;em&gt;‘elevação’&lt;/em&gt;, e isso tem todo sentido no JavaScript. Antes de mostrar um exemplo com hoisting, é importante entender como funciona a declaração de uma variável no javascript.&lt;/p&gt;...</description>
+        <pubDate>Wed, 25 Nov 2015 08:07:31 +0800</pubDate>
+        <link>http://localhost:4000/instanciacao-com-js/</link>
+        <guid isPermaLink="true">http://localhost:4000/instanciacao-com-js/</guid>
+        
+        <category>javascript</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

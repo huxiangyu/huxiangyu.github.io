@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	  <url>
+		<loc>http://localhost:4000/relacionamento-explain-replicas/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/garbage-collector/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/group-aggregate/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/mongodb-aula4/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/mongodb-aula-1-2-3/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/instanciacao-com-js/</loc>
+	  </url>
+	
+</urlset>

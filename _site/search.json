@@ -1,0 +1,51 @@
+[
+  
+    {
+      "title"    : "Relacionamento no MongoDB ? WTF",
+      "category" : "Introdução ao mongodb",
+      "tags"     : "mongodb",
+      "url"      : "/relacionamento-explain-replicas/",
+      "date"     : "09 Jan 2016"
+    } ,
+  
+    {
+      "title"    : "Garbage Collector no JavaScript",
+      "category" : "",
+      "tags"     : "javascript",
+      "url"      : "/garbage-collector/",
+      "date"     : "02 Jan 2016"
+    } ,
+  
+    {
+      "title"    : "Como fazer Aggregate e Groups no MongoDB",
+      "category" : "Introdução ao mongodb",
+      "tags"     : "mongobemean",
+      "url"      : "/group-aggregate/",
+      "date"     : "01 Jan 2016"
+    } ,
+  
+    {
+      "title"    : "Como atualizar e remover no MongoDB ?",
+      "category" : "Introdução ao mongodb",
+      "tags"     : "mongodb",
+      "url"      : "/mongodb-aula4/",
+      "date"     : "26 Dec 2015"
+    } ,
+  
+    {
+      "title"    : "Getting Started com MongoDB",
+      "category" : "Introdução ao mongodb",
+      "tags"     : "mongodb",
+      "url"      : "/mongodb-aula-1-2-3/",
+      "date"     : "07 Dec 2015"
+    } ,
+  
+    {
+      "title"    : "Closure e o tal do Hoisting",
+      "category" : "",
+      "tags"     : "javascript",
+      "url"      : "/instanciacao-com-js/",
+      "date"     : "25 Nov 2015"
+    } 
+  
+]
