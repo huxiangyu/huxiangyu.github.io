@@ -30,6 +30,7 @@ Apple and Nokia.
 ### 1、文本行去重  
 ####(1)排序  
 由于uniq命令只能对相邻行进行去重复操作，所以在进行去重前，先要对文本行进行排序，使重复行集中到一起。  
+
 ```
 $ sort test.txt   
 Apple and Nokia.  
@@ -44,6 +45,7 @@ The Iphone of Apple company.
 The Iphone of Apple company.  
 ```
 #### (2)去掉相邻的重复行  
+
 ```
 $ sort test.txt | uniq  
 Apple and Nokia.  
@@ -55,6 +57,7 @@ The Iphone of Apple company.
 ### 2、文本行去重并按重复次数排序  
 
 #### (1)首先，对文本行进行去重并统计重复次数(uniq命令加-c选项可以实现对重复次数进行统计。)。  
+
 ```
 $ sort test.txt | uniq -c  
       2 Apple and Nokia.  
@@ -65,6 +68,7 @@ $ sort test.txt | uniq -c
 ```
 #### (2)对文本行按重复次数进行排序。  
 sort -n可以识别每行开头的数字，并按其大小对文本行进行排序。默认是按升序排列，如果想要按降序要加-r选项(sort -rn)。  
+
 ```
 $ sort test.txt | uniq -c | sort -rn  
       4 Hello World.  
@@ -75,6 +79,7 @@ $ sort test.txt | uniq -c | sort -rn
 ```
 #### (3)每行前面的删除重复次数。  
 cut命令可以按列操作文本行。可以看出前面的重复次数占8个字符，因此，可以用命令cut -c 9- 取出每行第9个及其以后的字符。  
+
 ```
 $ sort test.txt | uniq -c | sort -rn | cut -c 9-  
 Hello World.  
@@ -84,6 +89,7 @@ My name is Friendfish.
 I wanna buy an Apple device.  
 ```
 ###  下面附带说一下cut命令的使用，用法如下：
+
 ```
 cut -b list [-n] [file ...]  
 cut -c list [file ...]  
