@@ -1,0 +1,9 @@
+---
+// Load shared assets once. The upstream client observes newly inserted groups,
+// including Swup page replacements, and owns keyboard navigation and persistence.
+import "rehype-code-group/styles.css";
+---
+
+<script>
+	import "rehype-code-group/client";
+</script>
