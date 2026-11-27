@@ -42,24 +42,24 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly",
+	title: "胡翔宇",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "site",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://www.huxiangyu.com",
 
 	// 站点描述
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"Full Stack Developer",
 
 	// 站点关键词
 	keywords: [
-		"Firefly",
-		"Fuwari",
-		"Astro",
-		"ACGN",
+		"胡翔宇",
+		"huxiangyu",
+		"huxyu",
+		"huxxyu",
 		"博客",
 		"技术博客",
 		"静态博客",
@@ -262,13 +262,13 @@ export const siteConfig: SiteConfig = {
 	// ── Bilibili配置 ──────────────────────────────────
 	bilibili: {
 		// 你的 Bilibili 用户 UID
-		uid: "38932988",
+		uid: "13596132",
 	},
 
 	// ── 番组计划bangumi配置 ──────────────────────────────────
 	bangumi: {
 		// Bangumi用户ID
-		userId: "1143164",
+		userId: "1111111",
 		// 数据模式：static=构建时获取，dynamic=客户端实时获取
 		// static 模式在构建时获取数据并静态渲染，部署后数据不更新
 		// dynamic 模式在浏览器中实时请求 API，始终显示最新数据
@@ -312,7 +312,7 @@ export const siteConfig: SiteConfig = {
 	// ── MyAnimeList配置 ──────────────────────────────────
 	mal: {
 		// MyAnimeList 用户名（列表需为公开状态，私密列表无法读取）
-		username: "cuteleaf",
+		username: "huxiangyu",
 		// MyAnimeList Client ID，在 https://myanimelist.net/apiconfig 注册免费应用后获取
 		clientId: "	0ef34371450f9c6c809deaadec6aa8f3",
 		// MAL API 地址
